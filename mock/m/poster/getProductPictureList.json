@@ -1,0 +1,59 @@
+/**
+ * demo
+ *
+ * @url /m/poster/getProductPictureList
+ *
+ * Parameter description and other instructions.
+ * etc.
+ */
+
+{
+  "success": true,
+  "message": "请求成功",
+  "data": {
+      "pictureList": [
+          "group1/M00/03/64/oYYBAFei5SCAeoTqAAHrSx80K7w757.jpg",
+          "group1/M00/03/66/ooYBAFei5SGANUkIAAIvRmnvlzc174.jpg",
+          "group1/M00/03/66/ooYBAFei5SKAZG2EAAI3vlj5Xw8812.jpg",
+          "group1/M00/03/66/ooYBAFei5SSAT6yoAAJbPtvcOrc204.jpg",
+          "group1/M00/03/64/oYYBAFei5SSAD8pGAAIe5KnBsvk019.jpg",
+          "group1/M00/03/66/ooYBAFei5SWAIawsAAJWt2zerQA680.jpg",
+          "group1/M00/03/64/oYYBAFei5SeAY4mZAAJM80SMlc4511.jpg",
+          "group1/M00/03/66/ooYBAFei5SiACHqTAAI8_zqR-dk451.jpg",
+          "group1/M00/03/64/oYYBAFei5SiARXWKAAImKaXy7nw024.jpg",
+          "group1/M00/01/C1/oYYBAFc72yCAS_WIAAJYSog_Tjo211.jpg",
+          "group1/M00/01/C1/oYYBAFc72yCALhbzAAL1zKfOURs120.jpg",
+          "group1/M00/01/C1/oYYBAFc72yWAcsBLAANRkK0l9NY932.jpg",
+          "group1/M00/01/C1/oYYBAFc72yGAWiBIAAQIGzDO2Eg052.jpg",
+          "group1/M00/01/C1/ooYBAFc72ySAPeHWAAL_PPKEFwA361.jpg",
+          "group1/M00/01/C1/ooYBAFc72yWAReiSAAIwgUeZMQg813.jpg",
+          "group1/M00/01/C1/oYYBAFc72yWASMIbAAMLpF00RMs141.jpg",
+          "group1/M00/03/64/oYYBAFei5SWAHt4FAAIhYxpilPc820.jpg",
+          "group1/M00/03/66/ooYBAFei5SaAHgw2AAJVig8fNjI220.jpg",
+          "group1/M00/00/6A/oYYBAFbyHneAP3Q9AAK6qC6jtJI220.jpg",
+          "group1/M00/00/3B/oYYBAFbyEtGAReSPAAFR3eUzQDk765.jpg",
+          "images/Content960/hl_2951_od_1_298c9d2ad8364c6792b1450b85cbdeff.jpg",
+          "images/Content960/hl_2951_od_1_8448f1f067eb44509daa8892a536e1f0.jpg",
+          "group1/M00/00/89/ooYBAFbyJveAHRW8AAOeIIF_EOI562.jpg",
+          "group1/M00/00/89/ooYBAFbyJvqAbttQAALrdpZwEsY715.jpg",
+          "group1/M00/00/8A/oYYBAFbyJvqAV08yAAGESvPC7ss317.jpg",
+          "group1/M00/00/89/ooYBAFbyJvqAEf_RAAH9OTkYVOM831.jpg",
+          "group1/M00/00/89/ooYBAFbyJvmAZBN9AAKJe20ud6Q173.jpg",
+          "group1/M00/00/8A/oYYBAFbyJviAH9QHAANikCQiW04813.jpg",
+          "group1/M00/00/89/ooYBAFbyJvmAUG_yAAKU2bT4aI0119.jpg",
+          "group1/M00/03/64/oYYBAFei5SOAIIe0AAIlZaSlAoA164.jpg",
+          "group1/M00/3C/2A/oYYBAF3XXY6AbaI3AAho_Q59eV0876.jpg",
+          "group1/M00/3C/B0/ooYBAF3k0lyALBfvAAo1Uatus4Y489.jpg",
+          "group1/M00/3D/52/oYYBAF34gneAaMAUAAIVMjfNJMA995.jpg",
+          "group1/M00/3D/53/oYYBAF34hneABuHKAAs1NEeUY4I918.jpg",
+          "group1/M00/3D/6C/ooYBAF34hnGAZ_osAAzQVwQry04526.jpg",
+          "group1/M00/3D/6C/ooYBAF34hnSAWU_VAAw6A7Okc04392.jpg",
+          "group1/M00/3D/53/oYYBAF34hnaACySIAAmcscBJvmo150.jpg",
+          "group1/M00/3D/6C/ooYBAF34hnaAD_B6AAxuyptGsVI742.jpg",
+          "group1/M00/3D/6C/ooYBAF34h-yATjjOAA38ARfD6BQ176.jpg",
+          "group1/M00/3D/6C/ooYBAF34hm6ATYRTAAzuOrCOifo218.jpg",
+          "group1/M00/3D/53/oYYBAF34hnOASi5sAAyu_74rivM870.jpg",
+          "group1/M00/3D/53/oYYBAF34hnCAdnJjAA08qdm2dC4417.jpg"
+      ]
+  }
+}
