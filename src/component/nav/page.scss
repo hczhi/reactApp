@@ -1,0 +1,18 @@
+.XzyNav{
+    min-height: 100vh;
+    // box-shadow: 0 0 3px #ccc;
+    font-size: 18px;
+    .ant-menu-submenu-selected{
+        color:#fe7032;
+    }
+    .ant-menu-item-selected{
+        color:#fff;
+        background-color: #FF7031 !important;
+        &:after{
+            border-right: 3px solid #bd4713 !important;
+        }
+    }
+    .ant-menu-submenu{
+        padding: 10px 0;
+    }
+}

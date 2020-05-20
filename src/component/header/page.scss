@@ -2,9 +2,13 @@
     background:linear-gradient(270deg,rgba(255,88,60,1) 0%,rgba(255,100,55,1) 62%,rgba(255,112,49,1) 100%);
     line-height: 64px;
     height: 64px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content:space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
     .left,.right{
         padding:0 20px;
         display: flex;

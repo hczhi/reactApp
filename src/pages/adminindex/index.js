@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {Layout, Button } from 'antd';
 import { databus } from '@lib/js/databus';
 import XzyHeader from '@com/header/index';
+import XzyNav from '@com/nav/index';
 
 import "./page.scss";
 
@@ -12,8 +13,14 @@ const { Header, Footer, Sider, Content } = Layout;
 class ShoppingList extends React.Component {
   render() {
     return (
-      <div>
+      <div className='xzyPages'>
         <XzyHeader></XzyHeader>
+        <div className="adminCon">
+          <XzyNav></XzyNav>
+          <div  className="adminCon_con">
+          adminCon_conadminCon_conadminCon_con
+          </div>
+        </div>
       </div>
     );
   }
