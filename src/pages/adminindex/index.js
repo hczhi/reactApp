@@ -18,7 +18,12 @@ class ShoppingList extends React.Component {
         <div className="adminCon">
           <XzyNav></XzyNav>
           <div  className="adminCon_con">
-          adminCon_conadminCon_conadminCon_con
+              <div className="adminCon_box">
+                <div className="adminCon_head">
+                  <h4>直播活动管理</h4>
+                </div>
+
+              </div>
           </div>
         </div>
       </div>

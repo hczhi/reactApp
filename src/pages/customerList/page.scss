@@ -1,0 +1,45 @@
+.adminCon{
+    padding-top: 64px;
+    display: flex;
+    .adminCon_con{
+        padding:30px 0 30px 0;
+        flex: 1;
+    }
+}
+.xzyPages{
+    background: rgba(246,246,246,1);
+}
+.adminCon_box{
+    background: #fff;
+    padding:20px;
+    margin: 0 50px;
+    .adminCon_head{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 20px;
+    }
+}
+
+.PromoterList{
+    .searchForm{
+        .item{
+            display: flex;
+            margin-right:25px;
+            align-items:center;
+            span{
+                display: inline-block;
+                width: 100px;
+            }
+        }
+    }
+    .searchForm_btns{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 40px;
+        border-bottom: 1px solid #eee;
+    }
+    .tableAction{
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
