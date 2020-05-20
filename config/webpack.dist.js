@@ -18,7 +18,29 @@ let serveConfig = {
         path: path.resolve(__dirname, buildRoot),
         filename: 'js/[name].js'
     },
-    plugins: plugins
+    plugins: plugins,
+    module:{
+        rules:[
+            {
+                test: /\.scss$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'sass-loader',
+                    // {
+                    //     loader: 'sass-resources-loader',
+                    //     options: {
+                    //         // Provide path to the file with resources
+                    //         resources: [
+                    //             './src/sassCore/mixins/mixins.scss',
+                    //             './src/sassCore/common/global.scss'
+                    //         ]
+                    //     }
+                    // },
+                ]
+            }
+        ]
+    }
 
 };
 module.exports = merge([

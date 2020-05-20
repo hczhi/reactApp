@@ -104,15 +104,14 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader', 'postcss-loader']
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.scss$/,
                 use: [
-                    // 'style-loader',
-                    MiniCssExtractPlugin.loader,
+                    'style-loader',
+                    //MiniCssExtractPlugin.loader,
                     'css-loader',
-                    'postcss-loader',
                     'sass-loader',
                     // {
                     //     loader: 'sass-resources-loader',
@@ -158,6 +157,7 @@ module.exports = {
     resolve: {
         alias: {
             "@lib": path.resolve(__dirname, '../src/lib'),
+            "@com": path.resolve(__dirname, '../src/component'),
         }
     },
 
