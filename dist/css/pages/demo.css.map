@@ -1,0 +1,1 @@
+{"version":3,"file":"css/pages/demo.css","sources":["webpack:///./src/pages/demo/page.scss"],"sourcesContent":[".App {\n  background-color: #282c34; }\n  .App .header {\n    min-height: 100vh;\n    color: white; }\n\n.header2 {\n  color: #09f; }\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;","sourceRoot":""}

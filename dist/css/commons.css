@@ -1,0 +1,136 @@
+.xzyHeader {
+  background: linear-gradient(270deg, #ff583c 0%, #ff6437 62%, #ff7031 100%);
+  line-height: 64px;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .xzyHeader .left, .xzyHeader .right {
+    padding: 0 20px;
+    display: flex;
+    align-items: center; }
+  .xzyHeader .left .name {
+    color: #fff; }
+  .xzyHeader .logo img {
+    width: 33px;
+    height: 45px;
+    margin-right: 10px; }
+  .xzyHeader .name {
+    color: #fff;
+    font-size: 20px; }
+  .xzyHeader .MailOutlined {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+    padding: 0 20px; }
+    .xzyHeader .MailOutlined .num {
+      display: inline;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      color: #FF6600;
+      background: #fff;
+      top: 8px;
+      right: 5px;
+      text-align: center;
+      border-radius: 22px;
+      font-size: 10px; }
+  .xzyHeader .user {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; }
+    .xzyHeader .user .userPic {
+      width: 24px;
+      height: 24px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 30px;
+      overflow: hidden;
+      border: 1px solid #fff;
+      text-align: center;
+      line-height: 24px;
+      margin-right: 10px;
+      margin-left: 10px;
+      position: relative;
+      top: -2px; }
+    .xzyHeader .user .welcome {
+      opacity: 0.7;
+      padding-right: 10px; }
+    .xzyHeader .user .userName {
+      padding: 0 10px;
+      cursor: default; }
+
+.XzyNav {
+  min-height: 100vh;
+  font-size: 18px; }
+  .XzyNav .ant-menu-submenu-selected {
+    color: #fe7032; }
+  .XzyNav .ant-menu-item-selected {
+    color: #fff;
+    background-color: #FF7031 !important; }
+    .XzyNav .ant-menu-item-selected:after {
+      border-right: 3px solid #bd4713 !important; }
+  .XzyNav .ant-menu-submenu {
+    padding: 10px 0; }
+
+.adminCon {
+  padding-top: 64px;
+  display: flex; }
+  .adminCon .adminCon_con {
+    padding: 30px 0 30px 0;
+    flex: 1; }
+
+.xzyPages {
+  background: #f6f6f6; }
+
+.adminCon_box {
+  background: #fff;
+  padding: 20px;
+  margin: 0 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 3px #eee; }
+  .adminCon_box .adminCon_head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+
+.adminCon_Breadcrumb {
+  padding: 0px 50px;
+  margin-top: -20px;
+  padding-bottom: 20px; }
+
+.searchForm .item {
+  display: flex;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  align-items: center; }
+  .searchForm .item .itemName {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    margin-right: 10px; }
+  .searchForm .item .itemInput {
+    flex: 1; }
+
+.searchForm_btns {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 40px;
+  border-bottom: 1px solid #eee; }
+
+.tableAction {
+  display: inline-block;
+  margin-right: 10px; }
+
+.adminCon_head-mt20 {
+  margin-top: 20px; }
+
+
+/*# sourceMappingURL=commons.css.map*/

@@ -81,6 +81,94 @@ const menuData = [
 
       }
     ]
+  },
+  {
+    name: '营销活动',
+    key: 'activity',
+    subMenu: [
+      {
+        name: "优惠券管理",
+        key:'couponlist',
+        url:"/pages/couponlist"
+
+      }
+    ]
+  },
+  {
+    name: '商城运营',
+    key: 'shopmall',
+    url:"/pages/shopmall"
+  },
+  {
+    name: '销售数据',
+    key: 'selldata',
+    url:"/pages/selldata"
+  },
+  {
+    name: '订单管理',
+    key: 'order',
+    subMenu: [
+      {
+        name: "成品订单管理",
+        key:'orderList',
+        url:"/pages/orderList"
+
+      },
+      {
+        name: "预付订单管理",
+        key:'preOrderList',
+        url:"/pages/preOrderList"
+
+      }
+    ]
+  },
+  {
+    name: '商品管理',
+    key: 'products',
+    subMenu: [
+      {
+        name: "成品商品管理",
+        key:'product',
+        url:"/pages/product"
+
+      },
+      {
+        name: "预付商品管理",
+        key:'preProduct',
+        url:"/pages/preProduct"
+
+      }
+    ]
+  },
+  {
+    name: '帐号管理',
+    key: 'account',
+    subMenu: [
+      {
+        name: "经销商管理",
+        key:'agentlist',
+        url:"/pages/agentlist"
+
+      },
+      {
+        name: "门店管理",
+        key:'shoplist',
+        url:"/pages/shoplist"
+
+      },
+      {
+        name: "员工管理",
+        key:'stafflist',
+        url:"/pages/stafflist"
+
+      },
+      {
+        name: "帐号管理",
+        key:'accountlist',
+        url:"/pages/accountlist"
+
+      }
+    ]
   }
 ];
 
@@ -98,8 +186,9 @@ class XzyNav extends React.Component {
     }
   }
   clickMenu(item, key, keyPath, domEvent){
+    var menukey = item.keyPath[1] || item.keyPath[0];
     if(item.key){
-      location.href='/pages/'+item.key+"?menukey="+item.keyPath[1]
+      location.href='/pages/'+item.key+"?menukey="+menukey
     }
   }
 

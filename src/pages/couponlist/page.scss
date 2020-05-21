@@ -1,0 +1,29 @@
+.adminCon{
+    padding-top: 64px;
+    display: flex;
+    .adminCon_con{
+        padding:30px 0 30px 0;
+        flex: 1;
+    }
+}
+.xzyPages{
+    background: rgba(246,246,246,1);
+}
+.adminCon_box{
+    background: #fff;
+    padding:20px;
+    margin: 0 50px;
+    .adminCon_head{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 20px;
+    }
+}
+
+.tableAction{
+    display: inline-block;
+    margin-right: 10px;
+}
+.adminCon_head—coupenList{
+    margin-top:20px;
+}

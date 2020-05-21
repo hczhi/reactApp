@@ -1,0 +1,60 @@
+.adminCon{
+    padding-top: 64px;
+    display: flex;
+    .adminCon_con{
+        padding:30px 0 30px 0;
+        flex: 1;
+    }
+}
+.xzyPages{
+    background: rgba(246,246,246,1);
+}
+.adminCon_box{
+    background: #fff;
+    padding:20px;
+    margin: 0 50px;
+    border-radius: 5px;
+    .adminCon_head{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 20px;
+    }
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px #eee;
+}
+
+.adminCon_Breadcrumb{
+    padding:0px 50px;
+    margin-top:-20px;
+    padding-bottom: 20px;
+}
+.searchForm{
+    .item{
+        display: flex;
+        margin-right:25px;
+        margin-bottom: 20px;
+        align-items:center;
+        .itemName{
+            display: inline-block;
+            width: 70px;
+            text-align: right;
+            margin-right: 10px;
+        }
+        .itemInput{
+            flex:1;
+        }
+    }
+}
+.searchForm_btns{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 40px;
+    border-bottom: 1px solid #eee;
+}
+.tableAction{
+    display: inline-block;
+    margin-right: 10px;
+}
+.adminCon_head-mt20{
+    margin-top: 20px;;
+}

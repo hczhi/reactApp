@@ -167,6 +167,7 @@ module.exports = {
         vue: 'Vue',
         $: '$',
         react: 'React',
-        'react-dom':'ReactDOM'
+        'react-dom':'ReactDOM',
+        bizcharts: 'BizCharts'
     }
 };

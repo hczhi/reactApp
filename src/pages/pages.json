@@ -4,5 +4,17 @@
     "liveAdd":"发起直播",
     "promoterList":"分销员管理",
     "customerList":"客户列表",
-    "customerDetial":"客户详情"
+    "customerDetial":"客户详情",
+    "couponlist":"优惠券管理",
+    "shopmall":"商城运营",
+    "selldata":"销售数据",
+    "orderList":"订单管理",
+    "preOrderList":"预付订单管理",
+    "product":"商品管理",
+    "preProduct":"预付商品管理",
+    "agentlist":"经销商管理",
+    "recharge":"充值",
+    "shoplist":"门店管理",
+    "stafflist":"员工管理",
+    "accountlist":"帐号管理"
 }

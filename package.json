@@ -14,6 +14,8 @@
   "author": "hc",
   "license": "ISC",
   "dependencies": {
+    "@antv/data-set": "^0.11.4",
+    "@antv/g2": "^4.0.8",
     "antd": "^4.2.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -23,6 +25,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "bizcharts": "^4.0.3",
     "clean-webpack-plugin": "^0.1.19",
     "css-hot-loader": "^1.3.9",
     "css-loader": "^0.28.10",

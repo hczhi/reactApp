@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.adminCon {
+  padding-top: 64px;
+  display: flex; }
+  .adminCon .adminCon_con {
+    padding: 30px 0 30px 0;
+    flex: 1; }
+
+.xzyPages {
+  background: #f6f6f6; }
+
+.adminCon_box {
+  background: #fff;
+  padding: 20px;
+  margin: 0 50px; }
+  .adminCon_box .adminCon_head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+
+.tableAction {
+  display: inline-block;
+  margin-right: 10px; }
+
+.adminCon_head—coupenList {
+  margin-top: 20px; }
+
+
+/*# sourceMappingURL=couponlist.css.map*/

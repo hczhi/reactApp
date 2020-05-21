@@ -1,0 +1,61 @@
+.CustomerDetial .userInfo {
+  display: flex; }
+  .CustomerDetial .userInfo .userInfo_l {
+    display: flex;
+    width: 300px;
+    border-right: 1px solid #eee;
+    padding: 0 20px 0 0;
+    margin-right: 20px; }
+  .CustomerDetial .userInfo .userInfo_l_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    overflow: hidden;
+    margin-right: 20px; }
+    .CustomerDetial .userInfo .userInfo_l_img img {
+      width: 80px;
+      height: 80px; }
+  .CustomerDetial .userInfo .userInfo_l_info {
+    line-height: 24px; }
+    .CustomerDetial .userInfo .userInfo_l_info .userInfo_l_userName {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px; }
+    .CustomerDetial .userInfo .userInfo_l_info .userInfo_l_userName_2 {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #666; }
+      .CustomerDetial .userInfo .userInfo_l_info .userInfo_l_userName_2 span {
+        display: inline-block;
+        margin-left: 10px;
+        color: #333; }
+  .CustomerDetial .userInfo .userInfo_r {
+    display: flex;
+    flex: 1; }
+    .CustomerDetial .userInfo .userInfo_r .userInfo_r_item {
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: solid 1px #eee;
+      margin-right: 20px;
+      flex: 1; }
+    .CustomerDetial .userInfo .userInfo_r .userInfo_r_item_title {
+      font-size: 16px;
+      margin-bottom: 5px; }
+      .CustomerDetial .userInfo .userInfo_r .userInfo_r_item_title .iconspan {
+        display: inline-block;
+        width: 25px; }
+    .CustomerDetial .userInfo .userInfo_r .userInfo_r_item_con-flex {
+      display: flex;
+      justify-content: space-between; }
+    .CustomerDetial .userInfo .userInfo_r .userInfo_r_item_con {
+      padding-left: 25px;
+      font-size: 12px; }
+      .CustomerDetial .userInfo .userInfo_r .userInfo_r_item_con .userInfo_r_item_order {
+        color: #999;
+        font-size: 12px;
+        flex: 1; }
+        .CustomerDetial .userInfo .userInfo_r .userInfo_r_item_con .userInfo_r_item_order .red {
+          color: #ff7031; }
+
+
+/*# sourceMappingURL=customerDetial.css.map*/

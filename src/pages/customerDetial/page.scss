@@ -1,45 +1,78 @@
-.adminCon{
-    padding-top: 64px;
-    display: flex;
-    .adminCon_con{
-        padding:30px 0 30px 0;
-        flex: 1;
-    }
-}
-.xzyPages{
-    background: rgba(246,246,246,1);
-}
-.adminCon_box{
-    background: #fff;
-    padding:20px;
-    margin: 0 50px;
-    .adminCon_head{
-        display: flex;
-        justify-content:space-between;
-        margin-bottom: 20px;
-    }
-}
 
-.PromoterList{
-    .searchForm{
-        .item{
+
+.CustomerDetial{
+    .userInfo{
+        display: flex;
+        .userInfo_l{
             display: flex;
-            margin-right:25px;
-            align-items:center;
-            span{
-                display: inline-block;
-                width: 100px;
+            width: 300px;
+            border-right: 1px solid #eee;
+            padding:0 20px 0 0;
+            margin-right: 20px;
+        }
+        .userInfo_l_img{
+            width: 80px;
+            height: 80px;
+            border-radius: 80px;
+            overflow: hidden;
+            margin-right: 20px;
+            img{
+                width: 80px;
+            height: 80px;
+            }
+        }  
+        .userInfo_l_info{
+            line-height: 24px;
+            .userInfo_l_userName{
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .userInfo_l_userName_2{
+                font-size: 14px;
+                margin-bottom: 5px;
+                color: #666;
+                span{
+                    display: inline-block;
+                    margin-left: 10px;
+                    color:#333;
+                }
+            }
+        } 
+        .userInfo_r{
+            display: flex;
+            flex: 1;
+            .userInfo_r_item{
+                padding:10px 15px;
+                border-radius: 5px;
+                border: solid 1px #eee;
+                margin-right: 20px;
+                flex:1;
+            }
+            .userInfo_r_item_title{
+                font-size: 16px;
+                margin-bottom: 5px;
+                .iconspan{
+                    display: inline-block;
+                    width: 25px;
+                }
+            }
+            .userInfo_r_item_con-flex{
+                display: flex;
+                justify-content:space-between;
+            }
+            .userInfo_r_item_con{
+                padding-left: 25px;
+                font-size: 12px;
+                .userInfo_r_item_order{
+                    color: #999;
+                    font-size: 12px;
+                    flex: 1;
+                    .red{
+                        color:#ff7031;
+                    }
+                }
             }
         }
-    }
-    .searchForm_btns{
-        display: flex;
-        justify-content: center;
-        padding: 30px 0 40px;
-        border-bottom: 1px solid #eee;
-    }
-    .tableAction{
-        display: inline-block;
-        margin-right: 10px;
     }
 }

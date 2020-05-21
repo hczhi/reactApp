@@ -25,17 +25,23 @@
         .item{
             display: flex;
             margin-right:25px;
+            margin-bottom: 20px;
             align-items:center;
-            span{
+            .itemName{
                 display: inline-block;
-                width: 100px;
+                width: 70px;
+                text-align: right;
+                margin-right: 10px;
+            }
+            .itemInput{
+                flex:1;
             }
         }
     }
     .searchForm_btns{
         display: flex;
         justify-content: center;
-        padding: 30px 0 40px;
+        padding: 10px 0 40px;
         border-bottom: 1px solid #eee;
     }
     .tableAction{

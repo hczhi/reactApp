@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Input, Button, Row, Col,Table } from 'antd';
+import { Input, Button, Row, Col,Table ,Select} from 'antd';
 import { databus } from '@lib/js/databus';
 import XzyHeader from '@com/header/index';
 import XzyNav from '@com/nav/index';
@@ -8,6 +8,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import "./page.scss";
 
 const { Column, ColumnGroup } = Table;
+const { Option } = Select;
 
 const dataSource = [
   {
@@ -80,6 +81,9 @@ const columns = [
 
 
 class PromoterList extends React.Component {
+  gotoDetial(e){
+    location.href='/pages/customerDetial?menukey=customer&id=1';
+  }
   render() {
     return (
       <div className='xzyPages PromoterList'>
@@ -95,26 +99,37 @@ class PromoterList extends React.Component {
                 <Row>
                   <Col span={6}>
                     <div className="item">
-                      <span>销客名称</span>
-                      <Input placeholder="请输入销客名称"/>
+                      <span className="itemName">销客名称</span>
+                      <Input placeholder="请输入销客名称" className="itemInput"/>
                     </div>
                   </Col>
                   <Col span={6}>
                     <div className="item">
-                      <span>门店名称</span>
-                      <Input  placeholder="请输入门店名称"/>
+                      <span className="itemName">门店名称</span>
+                      <Input  placeholder="请输入门店名称" className="itemInput"/>
                     </div>
                   </Col>
                   <Col span={6}>
                     <div className="item">
-                      <span>员工名称</span>
-                      <Input  placeholder="请输入员工名称"/>
+                      <span className="itemName">员工名称</span>
+                      <Input  placeholder="请输入员工名称" className="itemInput"/>
                     </div>
                   </Col>
                   <Col span={6}>
                     <div className="item">
-                      <span>手机号</span>
-                      <Input  placeholder="请输入手机号"/>
+                      <span className="itemName">手机号</span>
+                      <Input  placeholder="请输入手机号" className="itemInput"/>
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col span={6}>
+                    <div className="item">
+                      <span className="itemName">状态</span>
+                      <Select placeholder="请选择裂变机制" className="itemInput">
+                      <Option value="Zhejiang">Zhejiang</Option>
+                      <Option value="Jiangsu">Jiangsu</Option>
+                    </Select>
                     </div>
                   </Col>
                 </Row>
@@ -142,7 +157,7 @@ class PromoterList extends React.Component {
                         width='100'
                         render={(text, record) => (
                           <div>
-                            <span className="tableAction">管理</span>
+                            <span className="tableAction" onClick={this.gotoDetial}>管理</span>
                             <span className="tableAction">删除</span>
                           </div>
                         )}
